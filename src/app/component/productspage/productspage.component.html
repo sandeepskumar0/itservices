@@ -1,0 +1,54 @@
+
+
+
+
+<br><br>
+<div class="container" style="margin-left: 80px;"><br><br><br>
+    <div class="container text-center">
+        <h2 style="font-weight: bold;">{{single[0].title}}</h2><br>
+            <p>{{single[0].desc}}</p><br><br><hr>
+    </div><br>
+<div class="container " style="color: gray; font-weight: bold;" ><h3><u>CONFIGURATIONS</u> </h3></div><br>
+
+  <div class="row">
+      <div class="col" *ngFor="let i of single">
+       
+        
+          <div class="product-card">
+              <div class="badge">Deal</div>
+              <div class="product-tumb">
+                  <img src="assets\images\{{i.image}}" alt="">
+              </div>
+              <div class="product-details">
+                  <span class="product-catagory" style="color: green;">₹{{i.price}}</span>
+                  <h4><a href="cartpage">{{i.name}}</a></h4>
+                  <p>{{i.description}}</p>
+                  
+                
+                  <div class="product-bottom-details">
+                      <div class="product-price" style="color: green;">
+                        <!-- <div class="col"><a href="cartpage">Buy Now</a></div> -->
+                        <!-- <a href="cartpage" class="btn btn-primary" style="font-family: 'Times New Roman', Times, serif; " width="90px;" height="30px;">Add to cart</a> -->
+                        <!-- <a (click)="gotohere(i.id)" class="btn btn-warning">Order Now</a> -->
+                      
+                       <a (click)="gotohere(i.id)" class="btn btn-warning">Order Now</a>
+                        
+                        </div>
+                      <div class="product-links">
+                          <a href=""><i class="fa fa-heart"></i></a>
+                          <a href=""><i class="fa fa-shopping-cart"></i></a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+
+      </div>
+
+
+
+</div>
+</div>
+
+
+

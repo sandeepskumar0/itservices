@@ -1,0 +1,123 @@
+.service{
+    text-align: center;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+    padding: 50px;
+  }
+  .card{
+      border-radius: 4px;
+      background: #fff;
+      box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+        transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    padding: 14px 80px 18px 36px;
+    cursor: pointer;
+    background-color: #fff;
+    height:300px;
+  }
+  
+  .card:hover{
+       transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+  }
+  
+  .card h3{
+    font-weight: 600;
+  }
+
+  
+  
+  @media(max-width: 990px){
+    .card{
+      margin: 20px;
+    }
+  } 
+  .card-img-top{
+    height: 180px;
+    width: 200px;
+  }
+
+
+
+
+
+  /* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+  */
+  
+ 
+    .about-us{
+    height: 100vh;
+    width: 100%;
+  
+  }
+  .pic{
+    height: 350px;
+    width:  502px;
+  }
+  .about{
+    width: 1130px;
+    max-width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .text{
+    width: 540px;
+  }
+  .text h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color:rgb(15, 11, 11)
+  
+  }
+  .text h5{
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color:rgb(6, 4, 4)
+  }
+  span{
+    color: #ff0d00;
+  }
+  .text p{
+    color: #0d0808;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    text-align: justify;
+  }
+  .data{
+    margin-top: 30px;
+  }
+  .hire{
+    font-size: 18px;
+    background: #c3d011;
+    color: #f1e7e7;
+    text-decoration: none;
+    border: none;
+    padding: 8px 25px;
+    border-radius: 6px;
+    transition: 0.5s;
+  }
+  .hire:hover{
+    background: #fdfdfd;
+    border: 1px solid #4070f4;
+  }
+  body{
+    
+    color: #090707;
+  }
+  .text{
+   
+    background-color: black;
+    color: #fff;
+      
+    }
+  .b{
+    color: black;
+    background-color: #fdfdfd;
+  }

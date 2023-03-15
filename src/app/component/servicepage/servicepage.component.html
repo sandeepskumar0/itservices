@@ -1,0 +1,71 @@
+
+<br><br><br>
+<!-- <div class="container">
+
+    <div class="about">
+        <br><br>
+      <img src="../../../assets/images/whyus.webp" class="pic" >
+      <div class="text">
+        
+        <h2 class="b">Why Rent Desktops, Laptops, Server, Software ?</h2>
+          <p class="b">Rental is a good option for short-term projects. Costly investment in new equipment can be avoided when you requirement is temporary. It is a good way to complete in time and under budget.
+
+            Rentals provide a great solution for short-term projects. Avoid costly investments in new equipment when your need is temporary. Renting is a great way to complete your project on time and under budget </p>
+              
+      </div>
+    </div>
+ <br><br><br>
+</div> -->
+<div >
+<div class="container p-5" >
+ 
+    <h1 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"class="service" ><strong>Our Rental Products</strong></h1>
+    <hr>
+<div class="row"> 
+    <div class="col m-3" *ngFor=" let item of contact">
+           <div class="card" style="background-color: rgb(247, 245, 245);" >
+            
+            <img class="card-img-top" src="assets\images\{{item.img}}" alt="Card image cap"> 
+                    <div class="card-body">
+                        <h5 class="card-title">{{item.itemname}}</h5>
+                        <p class="card.text">{{item.description}}</p> 
+                        <a (click)="gotoHere(item.id)" class="btn btn-warning">View Product</a>
+                        
+                       
+                    </div>
+                </div>
+    </div>
+    </div>
+    </div>
+        
+        
+
+<br><br><br>
+<div class="container p-5" style= "color: rgb(62, 62, 196);">
+
+
+<h1 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: rgb(62, 62, 196); " class="service"><b>Other Services</b></h1>
+<hr>
+
+   
+    
+<div class="row"> 
+<div class="col m-3" *ngFor=" let item of contact">
+       <div class="card" style="width: 18rem; ">
+        
+        <img class="card-img-top" src="assets\images\{{item.img1}}" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">
+                        <a (click)="gotohere(item.id)" >{{item.itemname1}}</a>
+                    </h5>
+                    
+                   
+                </div>
+            </div>
+            
+</div>
+</div>
+</div>
+</div>
+
+

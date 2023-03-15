@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "itservices-portal": {
+      "hosting": {
+        "itfirm": [
+          "itservices-portal"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "itservices-portal"
+  }
+}

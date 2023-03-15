@@ -1,0 +1,107 @@
+
+
+<div>
+    <div class="text-center">
+       <br>
+       <h1 class="text-center my_title">
+          Your cart is empty
+       </h1>
+       <br>
+       <img src="https://www.webii.net/blog/wp-content/uploads/2019/10/shopping-cart-abandonment-advice-1280x720.jpg" height="360px" width="1500px">
+       <p class="text-center">
+            Please Click <a href="servicepage">Here</a> to continue booking.
+       </p>
+    </div>
+  </div>
+  
+  <div>
+    <div class="text-center">
+      <br>
+      <h1 style="color: yellow;"class="text-center my_title">
+         YOUR CART
+      </h1>
+      <br>
+    </div>
+  <div class="row mx-auto">
+     <div class="col-12 col-sm-12 col-md-12 col-lg-6 text-center">
+         <table class="table my_custom_table">
+             <thead class="my_custom_thead">
+              <tr>
+                 <th colspan="5">
+                     Your Items
+                 </th>
+              </tr>
+             </thead>
+             <tbody>
+             
+             <tr>
+                 <td>
+                     <a href="cart_item.product.get_absolute_url"><img src="assets\images\{{cart[0].image}}" alt=""  style="width:100px;height:100px;" class="float-left rounded custom_image"></a>
+  
+                 </td>
+                 <td class="text-lef">
+                     
+                     <br>
+                     Product : {{cart[0].name}}
+                     <br>
+                     Price : {{cart[0].price}}
+                     <br>
+                    {{cart[0].description}}
+  
+  
+                 </td>
+                 <td>
+                      
+                 </td>
+                 
+                  <td>
+                      <a href="" class="custom_a"> <i class="fa fa-plus custom_icon"></i></a>
+                      &nbsp;<a href="" class="custom_a"> <i class="fa fa-minus custom_icon"></i></a>
+                      &nbsp;<a href="" class="custom_icon"> <i class="fa fa-trash custom_icon"></i></a>
+                  </td>
+  <!--                
+                  <td>
+  
+                      <a href="" class="custom_a"> <i class="fa fa-minus custom_icon"></i></a>
+                      <a href="" class="custom_icon"> <i class="fa fa-trash custom_icon"></i></a>
+                  </td> -->
+                
+             </tr>
+             
+             </tbody>
+         </table>
+     </div>
+  <div class="col-12 col-sm-12 col-lg-6 text-center">
+      <table class="table my_custom_table">
+          <thead class="my_custom_head">
+          <tr>
+            <th>
+               Checkout
+            </th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+              <td>
+                  Please Review your product before proceeding with the order payment.
+              </td>
+          </tr>
+          <tr>
+              <td class="text-left">
+                    You Can Pay Through COD/ONLINE PAYMENTS <strong> </strong>
+                    
+  
+              </td>
+          </tr>
+          </tbody>
+      </table>
+      <div class="mx-auto">
+          <!-- <a href="signup" class="btn btn-primary btn-block my_custom_button">Payment</a> -->
+          <a (click)="buy()" class="btn btn-sucess">Confirm Now</a>
+          <p>Thank you for purchasing with us . have a good day !!!</p>
+  </div>
+     
+  </div>
+  </div>
+  </div>
+  

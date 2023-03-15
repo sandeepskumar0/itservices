@@ -1,0 +1,39 @@
+
+<br><br>
+<br><br><br>
+<h1  style="text-align: center; color: gray; font-weight: bold; font-family: Arial, Helvetica, sans-serif " >Our Training</h1>
+<p style="text-align: center;  color: gray;">Due to the evolving nature of technology, IT training content is constantly updated and adapted to reflect the current market. IT courses reside in a wide variety of curriculum areas including, but not limited to those listed below.</p>
+<hr>
+<div class="container p-5" >
+   
+    
+<div class="row"> 
+<div class="col m-2" *ngFor=" let i of training">
+       <div class="card" style= " margin-right: 20px;" width="200px">
+        
+        <img  style="background-color: rgb(57, 57, 199);"class="card-img-top" src="assets\images\{{i.img}}" alt="Card image cap" height="130px" width="100px">
+                <div class="card-body">
+                    <p  style="color: rgb(60, 60, 186);"class="card-title">{{i.heading}}</p>
+                    <h5 class="card-title">{{i.desc}}</h5>
+                    <hr>
+                    <h6 class="card-title">{{i.course1}}</h6>
+                    <hr>
+                    <h6 class="card-title">{{i.course2}}</h6>
+                    <hr>
+                    <h6 class="card-title">{{i.course3}}</h6>
+                    <hr>
+                    <h6 class="card-title">{{i.course4}}</h6>
+                    <hr>
+                    <h6 class="card-title">{{i.course5}}</h6>
+                    <hr>
+                    <a  class="btn btn-primary" href="contactpage">  Contact Us</a>
+                    
+                    <p></p>
+                    
+                   
+                </div>
+            </div>
+            
+</div>
+</div>
+</div>

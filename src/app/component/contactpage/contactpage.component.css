@@ -1,0 +1,110 @@
+.branch{
+    text-align: center;
+}
+.formSection .quoteSec .noPaddings .textQuote {padding-top: 4px !important;}
+.addressInfo {
+  padding: 0 !important;
+}
+.addressInfo p {
+    white-space: pre-line;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    line-height: 25px;
+}
+.addressInfo p i {
+    width:30px;
+    text-align: center;
+    color: #149ceb;
+    border-radius: 50%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    font-size: 26px;
+}
+.addressInfo h2 {
+    font-size: 20px;
+}
+.addressSection {
+    padding: 40px 0 !important;
+}
+.addressSection a{
+    color: #333;
+}
+.emails p { white-space: nowrap !important;  margin-bottom: 0 !important;}
+
+.contactSection > h2::before {
+    background: #137cd1;
+    content: '';
+    position: relative;
+    top: 54px;
+    left: -10px;
+    right: 0;
+    width: 40px;
+    display: block;
+    height: 1px;
+    margin: auto;
+}
+.contactSection > h2 {
+  margin-top: 30px;
+  color: #474b4c;
+  font-size: 35px;
+  font-weight: bold;
+}
+.contactSection > h2::after {
+    content: '';
+    position: relative;
+    top: 16px;
+    left: 0px;
+    right: 0;
+    width: 40px;
+    display: block;
+    height: 1px;
+    margin: auto;
+    background: #1088e3;
+}
+.noPaddings25 {
+    padding: 0 20px !important;
+ }
+
+ .productsListDetails .mediaContainer .media-body p {
+     line-height: 25px;
+ }
+
+ @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+/*Google font integration*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+#contact{
+    background-color:#f1f1f1;
+    font-family: 'Roboto', sans-serif;
+}
+
+#contact .well{
+    margin-top:30px;
+    border-radius:0;
+}
+
+#contact .form-control{
+    border-radius: 0;
+    border:2px solid #1e1e1e;
+}
+
+#contact button{
+    border-radius:0;
+    border:2px solid #1e1e1e;
+}
+
+#contact .row{
+    margin-bottom:30px;
+}
+
+@media (max-width: 768px) { 
+    #contact iframe {
+        margin-bottom: 15px;
+    }
+    
+}
