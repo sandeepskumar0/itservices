@@ -1,0 +1,53 @@
+                                                   IT SERVICE PORTAL 
+                                               SANDEEP S KUMAR (MCA S3)
+                                            ---MACFAST THRUVALLA , KERALA---
+
+ ------------------------------------------------------------------------------------------------------------------------------                                           
+
+
+admin--> admin email id : techadmin@gmail.com
+         admin password : admin123
+
+         adminpages folder -->  adminlogin component , admin component
+
+         Functions: Admin Can Read & Delete Data from Booking And Carrers Pages that will be affected on firestore db also..
+
+------------------------------------------------------------------------------------------------------------------------------
+
+users--> component Folder-->    aboutpage
+                                Carrers
+                                contactpage
+                                edit-form 
+                                forgot-password
+                                landpage(home)
+                                login
+                                otherservicepage
+                                paymentpage 
+                                productspage
+                                register
+                                servicepage 
+                                trainingpage
+                                hero.servicepage
+
+         Functions--------> user can view website ,autheticate, book rent  products, apply jobs , enquire training sections
+                          , book more network services etc......                    
+
+ ------------------------------------------------------------------------------------------------------------------------------
+
+ units folder--> NavbarComponent
+                 FooterComponent                                
+
+ ------------------------------------------------------------------------------------------------------------------------------
+
+ shared Folder-->  AuthService (For Authentication and Firestore Db Conn)
+
+ ------------------------------------------------------------------------------------------------------------------------------
+
+ Interface Folder--> detail.ts [export data (crud)]
+                     details.ts
+
+ ------------------------------------------------------------------------------------------------------------------------------    
+
+ assets------------> images Folder
+                     data.ts File
+ ------------------------------------------------------------------------------------------------------------------------------                            

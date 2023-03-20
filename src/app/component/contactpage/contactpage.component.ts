@@ -10,11 +10,7 @@ import { Firestore,collection,addDoc} from '@angular/fire/firestore';
 })
 export class ContactpageComponent {
   constructor(private router:Router,private hero:HeroService,private firestore : Firestore) {}
-      // gotoHere(id:any)
-      // {
-      //   localStorage.setItem('id',id);
-      //   this.router.navigate(['/singlepage']);
-      // }
+    
       submit(){
         alert('Submitted Sucessfully')
         this.router.navigateByUrl('homepage')

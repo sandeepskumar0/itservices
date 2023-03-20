@@ -8,12 +8,12 @@ body{
   }
   .card{
       border-radius: 4px;
-      background: #fff;
+      background: #8f1717;
       box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
         transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
     padding: 14px 80px 18px 36px;
     cursor: pointer;
-    background-color: #fff;
+    background-color: #a3c4ee;
     height:300px;
   }
   
@@ -104,7 +104,7 @@ body{
     transition: 0.5s;
   }
   .hire:hover{
-    background: #fdfdfd;
+    background: #e2a4a4;
     border: 1px solid #4070f4;
   }
   body{
@@ -119,5 +119,5 @@ body{
     }
   .b{
     color: black;
-    background-color: #fdfdfd;
+    background-color: #dc1010;
   }

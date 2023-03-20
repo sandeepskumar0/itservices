@@ -9,8 +9,6 @@ import Swal from 'sweetalert2';
 })
 export class ProductspageComponent {
   constructor(private router:Router,private hero:HeroService) {}
-  
-  
   single:any
   gotohere(id:any)
   {
@@ -19,10 +17,9 @@ export class ProductspageComponent {
     this.router.navigate(['/cartpage']);
     
   }
-    
       ngOnInit()
       {
-        let id=Number(localStorage.getItem('id1'))
+        let id=Number(localStorage.getItem('id'))
         console.log(id)
     
         if(id===1)

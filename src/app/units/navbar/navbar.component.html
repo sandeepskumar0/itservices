@@ -1,34 +1,39 @@
 
 
-    
-    <header class="hd">
-        <input type ="checkbox" name ="" id ="chk1">
-        <div class="logo"> <img src="assets\images\logo-black.png" style="margin-bottom: 10px;"></div>
-      
-         
-             <ul>
-                <li><a routerLink="">Home</a></li>
-                <li><a routerLink="aboutpage">About</a></li>
-                <li><a routerLink="servicepage">Services</a></li>
-                <li><a routerLink="training">Training</a></li>
-                <li><a routerLink="contactpage">Contact</a></li>
-            
-                <li><button class="cn"routerLink="login"  >Login</button></li>
-                <li><button class="cn"routerLink="register" >Sign Up</button></li>
-                <li>
-                    <a href="#"><i class="fa fa-facebook"></i></a>
-                    <a href="#"><i class="fa fa-twitter"></i></a>
-                    <a href="#"><i class="fa fa-instagram"></i></a>
-                    
-                </li>
-            </ul>
-            <div class="menu">
-                <label for="chk1">
-                    <i class="fa fa-bars"></i>
-                </label>
-            </div>
-    </header>
-    
-
-
+ <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top py-3">
+		<div class="container">
+			<a class="navbar-brand" href="#"><span class="text-primary">Tech</span>Max</a> <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link" href="#">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="aboutpage">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="servicepage">Services</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="trainingpage">Training</a>
+					</li>
+				
+					<li class="nav-item">
+						<a class="nav-link" href="contactpage">Contact</a>
+					</li>
+					
+					<li><button style="margin:2px;" class="cn" routerLink="login"  >Login</button></li>
+					<li><button style="margin:2px;"class="cn" routerLink="register" >Sign Up</button></li>
+					<li>
+						<a href="#"><i style=" padding-left: 2em; " class="fa fa-facebook mt-3"></i></a>
+						<a href="#"><i style=" padding-left: 2em;" class="fa fa-twitter"></i></a>
+						<a href="#"><i style=" padding-left: 2em;" class="fa fa-instagram"></i></a>
+						
+					</li>
+				</ul>
+			
+				
+			</div>
+		</div>
+	</nav>
 
