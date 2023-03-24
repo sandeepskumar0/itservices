@@ -33,9 +33,9 @@ export class AuthService {
         localStorage.setItem('token', 'true');
 
         if (res.user?.emailVerified == true) {
-          this.router.navigate(['/paymentpage']);
+          this.router.navigate(['/userdashboard']);
         } else {
-          this.router.navigate(['paymentpage']);
+          this.router.navigate(['userdashboard']);
         }
       },
       (err) => {
@@ -147,14 +147,7 @@ export class AuthService {
       (res) => {
         localStorage.setItem('token', 'true');
         this.router.navigate(['/admin']);
-        // if (res.user?.emailVerified == true)
-        //  {
-        //   this.router.navigate(['/admin']);
-        // } 
-        // else
-        //  {
-        //   this.router.navigate(['adminlogin']);
-        // }
+    
       },
       (err) => {
         alert('something went wrong');

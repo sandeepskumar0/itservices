@@ -17,7 +17,6 @@ admin--> admin email id : techadmin@gmail.com
 users--> component Folder-->    aboutpage
                                 Carrers
                                 contactpage
-                                edit-form 
                                 forgot-password
                                 landpage(home)
                                 login
@@ -27,11 +26,14 @@ users--> component Folder-->    aboutpage
                                 register
                                 servicepage 
                                 trainingpage
+                                userdashboard
                                 hero.servicepage
 
          Functions--------> user can view website ,autheticate, book rent  products, apply jobs , enquire training sections
                           , book more network services etc......                    
 
+way of booking:
+home---->service-->prdts-->login-->dashboard-->booking
  ------------------------------------------------------------------------------------------------------------------------------
 
  units folder--> NavbarComponent

@@ -4,7 +4,6 @@ import { AuthService } from 'src/app/shared/auth.service';
 import { Details } from 'src/app/interface/details';
 import { Partner } from 'src/app/interface/detail';
 
-
 @Component({
   selector: 'app-admin',
   templateUrl: './admin.component.html',

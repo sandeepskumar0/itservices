@@ -17,6 +17,7 @@ import { ProductspageComponent } from './component/productspage/productspage.com
 import { RegisterComponent } from './component/register/register.component';
 import { ServicepageComponent } from './component/servicepage/servicepage.component';
 import { TrainingpageComponent } from './component/trainingpage/trainingpage.component';
+import { UserdashboardComponent } from './component/userdashboard/userdashboard.component';
 
 const routes: Routes = [
   
@@ -24,7 +25,7 @@ const routes: Routes = [
   {path:'login',component:LoginComponent},
   
   {path:'aboutpage',component:AboutpageComponent},
-  
+  {path:'userdashboard',component:UserdashboardComponent},
   {path:'contactpage',component:ContactpageComponent},
   {path:'otherservicepage',component:OtherservicepageComponent},
   {path:'paymentpage',component:PaymentpageComponent},

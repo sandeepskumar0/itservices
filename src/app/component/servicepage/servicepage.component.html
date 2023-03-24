@@ -1,35 +1,17 @@
 
-<br><br><br>
-<!-- <div class="container">
-
-    <div class="about">
-        <br><br>
-      <img src="../../../assets/images/whyus.webp" class="pic" >
-      <div class="text">
-        
-        <h2 class="b">Why Rent Desktops, Laptops, Server, Software ?</h2>
-          <p class="b">Rental is a good option for short-term projects. Costly investment in new equipment can be avoided when you requirement is temporary. It is a good way to complete in time and under budget.
-
-            Rentals provide a great solution for short-term projects. Avoid costly investments in new equipment when your need is temporary. Renting is a great way to complete your project on time and under budget </p>
-              
-      </div>
-    </div>
- <br><br><br>
-</div> -->
-<br>
-<img src="http://www.itrentalindia.com/img/services.jpg" width="100%" height="350px">
+<img src ="../../../assets/images/ser.jpg" width="100%" height="400px">
 <br><br>
 <div class="container text-center" style="background-color: rgb(52, 172, 241);" >
     <br>
     
     <h4>Why Rent ?</h4>
     <h6>You may wonder why to rent when you have an option of outright purchase. Rental is a good option under following situations.</h6>
-    <img src="http://www.itrentalindia.com/img/sign.png"><p>SHORT-TERM PROJECTS</p>
-    <img src="http://www.itrentalindia.com/img/sign.png"><p>CONTRACT EMPLOYEES</p>
-    <img src="http://www.itrentalindia.com/img/sign.png"><p>BUDGET CONSTRAINTS</p>
-    <img src="http://www.itrentalindia.com/img/sign.png"><p> PRODUCT EVALUATION</p>
-    <img src="http://www.itrentalindia.com/img/sign.png"><p> IMMEDIATE DELIVERY</p>
-    <img src="http://www.itrentalindia.com/img/sign.png"><p> TRAVELING EMPLOYEES</p>
+    <img src="../../../assets/images/abstract.png"><p>SHORT-TERM PROJECTS</p>
+    <img src="../../../assets/images/abstract.png"><p>CONTRACT EMPLOYEES</p>
+    <img src="../../../assets/images/abstract.png"><p>BUDGET CONSTRAINTS</p>
+    <img src="../../../assets/images/abstract.png"><p> PRODUCT EVALUATION</p>
+    <img src="../../../assets/images/abstract.png"><p> IMMEDIATE DELIVERY</p>
+    <img src="../../../assets/images/abstract.png"><p> TRAVELING EMPLOYEES</p>
 </div>
 <br>
 <div class="container p-5" >
@@ -67,22 +49,12 @@
     
 <div class="row"> 
 <div class="col m-3" *ngFor=" let item of contact">
-       <!-- <div class="card" style="width: 18rem; ">
-        
-        <img class="card-img-top" src="assets\images\{{item.img1}}" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">
-                        <a (click)="gotohere(item.id)" >{{item.itemname1}}</a>
-                    </h5>
-                    
-                   
-                </div>
-            </div> -->
+      
             <div class="card text-white text-center bg-dark pb-2">
                 <div class="card-body">
                     <img class="card-img-top" src="assets\images\{{item.img1}}" alt="Card image cap">
                     <i class="bi bi-laptop"></i>
-                    <h4 (click)="gotohere(item.id)" >{{item.itemname1}}</h4>
+                    <h6 (click)="gotohere(item.id)" >{{item.itemname1}}</h6>
                     <!-- <button class="btn bg-primary text-dark">Read More</button> -->
                 </div>
             </div>

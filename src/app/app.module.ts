@@ -1,17 +1,14 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './component/login/login.component';
-
 import { initializeApp, provideFirebaseApp } from '@angular/fire/app';
 import { environment } from '../environments/environment';
 import { provideAuth,getAuth } from '@angular/fire/auth';
 import { provideFirestore,getFirestore } from '@angular/fire/firestore';
 import { RegisterComponent } from './component/register/register.component';
 import { AboutpageComponent } from './component/aboutpage/aboutpage.component';
-
 import { ContactpageComponent } from './component/contactpage/contactpage.component';
 import { OtherservicepageComponent } from './component/otherservicepage/otherservicepage.component';
 import { PaymentpageComponent } from './component/paymentpage/paymentpage.component';
@@ -29,6 +26,7 @@ import { FirestoreModule } from '@angular/fire/firestore';
 import { EditFormComponent } from './component/edit-form/edit-form.component';
 import { AdminloginComponent } from './adminpages/adminlogin/adminlogin.component';
 import { LandpageComponent } from './component/landpage/landpage.component';
+import { UserdashboardComponent } from './component/userdashboard/userdashboard.component';
 
 
 
@@ -36,10 +34,8 @@ import { LandpageComponent } from './component/landpage/landpage.component';
   declarations: [
     AppComponent,
     LoginComponent,
- 
     RegisterComponent,
     AboutpageComponent,
-   
     ContactpageComponent,
     OtherservicepageComponent,
     PaymentpageComponent,
@@ -53,7 +49,8 @@ import { LandpageComponent } from './component/landpage/landpage.component';
      CarrersComponent,
      EditFormComponent,
      AdminloginComponent,
-     LandpageComponent
+     LandpageComponent,
+     UserdashboardComponent
   ],
   imports: [
     BrowserModule,

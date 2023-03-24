@@ -1,0 +1,87 @@
+
+<nav class="navbar navbar-inverse visible-xs">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <!-- <a class="navbar-brand" href="#">Logo</a> -->
+      </div>
+     
+    </div>
+  </nav>
+  
+  <div class="container-fluid text-center">
+    <div class="row content">
+      <div class="col-sm-2 sidenav hidden-xs">
+        <!-- <h2>Logo</h2> -->
+        <ul class="nav nav-pills nav-stacked">
+          <!-- <li class="active"><a href="#section1">Dashboard</a></li> -->
+          <!-- <li><a href="#section2">Age</a></li> -->
+          <!-- <li><a href="#section3">Gender</a></li> -->
+          <!-- <li><a href="#section3">Geo</a></li> -->
+        </ul><br>
+      </div>
+      <br>
+      
+      <div class="col-sm-9">
+        <div class="well">
+          <!-- <h4>Dashboard</h4> -->
+          <H1>WELCOME TO <span style="color: blue;">TECH</span> MAX</H1>
+        </div>
+        <BR>
+            <br>
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="well">
+                <!-- <button class="" href="booking">Book Now</button> -->
+                <a class="btn btn-success" style="padding:1em" routerLink="paymentpage">Book Now</a><br>
+
+              <!-- <p>1 Million</p>  -->
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="well">
+                <a class="btn btn-success"  style="margin:3px; padding:1em" routerLink="carrers">Carrers</a><br>
+
+              <!-- <p>100 Million</p>  -->
+            </div>
+          </div>
+      
+          <div class="col-sm-3">
+            <div class="well">
+                <a class="btn btn-danger" style="margin:3px; padding:1em" routerLink="">Logout</a>
+
+              
+            </div>
+          </div>
+        </div><br><br><br>
+        <div class="container">
+          <div class="front side">
+            <div class="content">
+              <h1>Tech Max</h1>
+              <p>Techmax Solutions is a trusted IT Infra solution and rental provider. We understand your needs, identify high quality, affordable IT solutions in hardware, software, services, mobility, analytics and cloud. A devoted group of experts engaged in diverse technological sector is our strength
+              </p>
+            </div>
+          </div>
+          <div class="back side">
+            <div class="content">
+              <h1>Subscribe </h1>
+              <form #f="ngForm" (ngSubmit)="addData(f)"> 
+                <label>Your Name :</label>
+                <input type="text" name="name" ngModel>
+                <label>Your E-mail :</label>
+                <input type="text" name="email" ngModel>
+                <label>Your message :</label>
+                <textarea placeholder="The Subject"  ngModel name="message"></textarea>
+                <button  style="background-color: green;"  name="button"(click)="submit()" >Submit</button>
+                <!-- <input type="submit" type="btn btn-danger" value="Done" ngModel name="button"(click)="submit()" >Submit -->
+                
+              </form>
+            </div>
+          </div>
+        
+        </div>
+      

@@ -19,7 +19,7 @@ export class ProductspageComponent {
   }
       ngOnInit()
       {
-        let id=Number(localStorage.getItem('id'))
+        let id=Number(localStorage.getItem('id1'))
         console.log(id)
     
         if(id===1)
